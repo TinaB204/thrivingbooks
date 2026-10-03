@@ -98,3 +98,53 @@ footer {
     color: white;
     padding: 35px 20px;
 }
+.about {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-photo {
+    flex: 0 0 250px;
+}
+
+.about-photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    margin-bottom: 10px;
+}
+
+.credential {
+    color: #173a59;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.credential span {
+    display: block;
+    color: #4e6f55;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 4px;
+}
+
+@media (max-width: 650px) {
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-photo {
+        flex-basis: auto;
+        width: 220px;
+    }
+}
