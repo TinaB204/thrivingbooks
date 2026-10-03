@@ -11,7 +11,15 @@ header {
     background-color: #f5f1e8;
 }
 
-header h1 {
+.logo {
+    display: block;
+    width: 90%;
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto 30px;
+}
+
+h1 {
     color: #173a59;
     font-size: 48px;
     margin-bottom: 10px;
