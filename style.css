@@ -104,15 +104,14 @@ footer {
 
 .about-wrap {
     position: relative;
-    max-width: 850px;
+    max-width: 700px;
     margin: 0 auto;
     display: flex;
     align-items: center;
 }
 
 .about-photo {
-    width: 52%;
-    max-width: 430px;
+    width: 300px;
     height: auto;
     display: block;
     border-radius: 10px;
@@ -120,9 +119,9 @@ footer {
 
 .about-card {
     position: relative;
-    width: 55%;
-    margin-left: -45px;
-    padding: 35px 40px;
+    width: 400px;
+    margin-left: -35px;
+    padding: 25px 30px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
