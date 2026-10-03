@@ -99,52 +99,86 @@ footer {
     padding: 35px 20px;
 }
 .about {
+    padding: 40px 25px;
+}
+
+.about-wrap {
+    position: relative;
+    max-width: 850px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    gap: 40px;
 }
 
 .about-photo {
-    flex: 0 0 250px;
-}
-
-.about-photo img {
-    width: 100%;
+    width: 52%;
+    max-width: 430px;
     height: auto;
     display: block;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
-.about-text {
-    flex: 1;
+.about-card {
+    position: relative;
+    width: 55%;
+    margin-left: -45px;
+    padding: 35px 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
 }
 
-.about-text h2 {
-    margin-bottom: 10px;
+.about-card h2 {
+    margin: 0 0 12px;
+    color: #173a59;
+    font-size: 36px;
 }
 
 .credential {
     color: #173a59;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin: 0;
 }
 
 .credential span {
     display: block;
     color: #4e6f55;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: normal;
-    margin-top: 4px;
+    margin-top: 5px;
 }
 
+.gold-line {
+    width: 70px;
+    height: 3px;
+    background-color: #c69a45;
+    margin: 20px 0;
+}
+
+.about-message {
+    margin: 0;
+    line-height: 1.7;
+}
+
+/* Phone */
 @media (max-width: 650px) {
-    .about {
-        flex-direction: column;
-        text-align: center;
+
+    .about-wrap {
+        display: block;
     }
 
     .about-photo {
-        flex-basis: auto;
-        width: 220px;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .about-card {
+        width: auto;
+        margin: -35px 15px 0;
+        padding: 28px 25px;
+    }
+
+    .about-card h2 {
+        font-size: 30px;
     }
 }
