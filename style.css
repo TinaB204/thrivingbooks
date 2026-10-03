@@ -185,3 +185,13 @@ footer {
         font-size: 30px;
     }
 }
+@media (max-width: 650px) {
+    .about .about-photo {
+        width: 200px !important;
+        height: 230px !important;
+        max-width: 200px !important;
+        object-fit: cover;
+        object-position: center 20%;
+        margin: 0 auto;
+    }
+}
